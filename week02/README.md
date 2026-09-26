@@ -1,0 +1,4 @@
+-AI Tool Used: None
+-Promt Used: None
+-I didn't change anything i wrote  my own knowledge.
+-'BREAK' terminates the loop.
