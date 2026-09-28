@@ -17,4 +17,4 @@ print(f"{item2}: {item2_quantities} x {item2_perprice:.2f} = {total_item2:.2f} T
 print(f"Subtotal: {subtotal:.2f} TRY")
 print(f"Tax ({tax_percentage}%): {tax_calc:.2f} TRY")
 print(f"Delivery Fee: {delivery_fee:.2f} TRY")
-print(f"Final Total: {subtotal:.2f} TRY")
+print(f"Final Total: {subtotal_withtax:.2f} TRY")
