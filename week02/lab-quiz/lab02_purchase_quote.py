@@ -1,0 +1,20 @@
+item1 = input("What is your first item name: ")
+item2 = input("What is your second item name: ")
+item1_quantities = int(input("What is your first item quantity: "))
+item2_quantities = int(input("What is your second item quantity: "))
+item1_perprice = float(input("What is your first item per unit price: "))
+item2_perprice = float(input("What is your second item per unit price: "))
+delivery_fee = float(input("What is your deliver fee: "))
+tax_percentage = int(input("What is your tax percentage: "))
+total_item1 = (item1_quantities * item1_perprice) 
+total_item2 = (item2_quantities * item2_perprice)
+subtotal = total_item1 + total_item2
+tax_calc = subtotal * tax_percentage / 100
+subtotal_withtax = subtotal + tax_calc + delivery_fee
+print("\n--- Purchase Quote ---")
+print(f"{item1}: {item1_quantities} x {item1_perprice:.2f} = {total_item1:.2f} TRY")
+print(f"{item2}: {item2_quantities} x {item2_perprice:.2f} = {total_item2:.2f} TRY")
+print(f"Subtotal: {subtotal:.2f} TRY")
+print(f"Tax ({tax_percentage}%): {tax_calc:.2f} TRY")
+print(f"Delivery Fee: {delivery_fee:.2f} TRY")
+print(f"Final Total: {subtotal:.2f} TRY")
