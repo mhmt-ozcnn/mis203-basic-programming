@@ -19,7 +19,7 @@ Week 3 ticket_office.py
     python checks conditions in order and applies only the first matching discount. If the student rule came before the child rule, a 10 year old student would receive only a %30 discount instead of the intended 40% child discount.
 Week 4 surprise.py
     AI Tool Used: Codex
-    Promt Used: how can i use random and time library tell me syntax then added into code.
+    Promt Used: how can i use random and time library tell me syntax then added into code then added attempts while syntax into else syntax.
      
     its a communication simulator between student and professor. The student who want to pass lecture. I used random library for professor mood dynamics and time library for the door knocking effect. If the student fails the initial threshold, they get three attempts to negotiate and raise their average during office hours. 
     Test:   Enter your name: mehmet

@@ -13,11 +13,11 @@ else:
     print("You failed the course! You have three chances to convince the professor.")
 
     attempts_left = 3
-    prof_mood = random.randint(1, 10)
+    prof_mood = random.randint(1, 10) #it gives random number 1 to 10.
 
     print("\nYou are approaching the professor's door...")
     knock_count = 0
-    while knock_count < 3:
+    while knock_count < 3: #it gives door knock effect.
         print("Knock...")
         time.sleep(1)
         knock_count += 1
@@ -26,7 +26,7 @@ else:
     print(f"What is your problem {name}")
     while attempts_left > 0:
         print(f"\nRemaining attempts: {attempts_left}")
-        print("What will you say to the Professor?")
+        print("What will you say to the Professor?") #interaction choices for communication with professor.
         print("A) 'I worked really hard on the projects and did all bonus tasks.'")
         print("B) 'I was sick during midterm week, could you consider a makeup assignment?'")
         print("C) 'Can you give me any hints about what to study for retake exams?'")
