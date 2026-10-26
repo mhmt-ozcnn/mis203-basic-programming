@@ -49,3 +49,22 @@ Week 4 surprise.py
 
             MEETING SUMMARY
             Congratulations mehmet! New average: 66.0 | Status: PASSED!
+    lab-quiz : 
+                A simple Python program that simulates month-by-month savings growth with compound interest until a target goal is met or 60 months pass.
+
+        AI Tool Used: Gemini         
+        Promt Used: Check code structure.
+        
+Week 5 
+    lab-quiz: lab05_shipping_quote.py 
+              AI Tool Used: Codex
+              OUTPUT: Small order:
+                        Subtotal: 320.00 TRY
+                        Discount: 0%
+                        Shipping: 50.00 TRY
+                        Total: 370.00 TRY
+                      Large order:
+                        Subtotal: 1050.00 TRY
+                        Discount: 10%
+                        Shipping: 50.00 TRY
+                        Total: 995.00 TRY
