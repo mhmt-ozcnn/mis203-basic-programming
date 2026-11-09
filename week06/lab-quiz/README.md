@@ -1,0 +1,3 @@
+-AI Tool Used: Gemini
+-Promt Used: Check this code structure with this task
+-I added new loop for removing student who want to leave.
